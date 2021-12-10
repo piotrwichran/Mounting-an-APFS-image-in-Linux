@@ -3,12 +3,12 @@
   link to SIFT image: https://www.sans.org/tools/sift-workstation/
 
 #### Preparing the SIFT Workstation
-
+'''
   \# sudo apt-get update
   \# sudo apt-get install libattr1-dev
 
   \# sudo apt-get install libicu-dev
-
+'''
 #### Download and build apfs-fuse
 
 \# git clone https://github.com/sgan81/apfs-fuse
