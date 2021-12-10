@@ -4,7 +4,7 @@
 
 #### Preparing the SIFT Workstation
 
-  sudo apt-get update
+  \# sudo apt-get update
   sudo apt-get install libattr1-dev
 
   sudo apt-get install libicu-dev
