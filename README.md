@@ -1,15 +1,15 @@
-# Mounting an APFS image in Linux
+# Montowanie obrazu APFS w Linux
 
-  link to SIFT image: https://www.sans.org/tools/sift-workstation/
+  link do SIFT image: https://www.sans.org/tools/sift-workstation/
 
-#### Preparing the SIFT Workstation
+#### Przygotowanie SIFT Workstation
 ```
   # sudo apt-get update
   # sudo apt-get install libattr1-dev
 
   # sudo apt-get install libicu-dev
 ```
-#### Download and build apfs-fuse
+#### Ściągnąć i zbudować apfs-fuse
 ```
   # git clone https://github.com/sgan81/apfs-fuse
 
@@ -25,7 +25,7 @@
 ```
   # ewfmount mac_image.E01 /mnt/ewf
 ```
-#### Mounting the raw image to a loopback device
+#### Montowanie the raw image to a loopback device
 
 ###### To run mmls on the mounted EWF:
   ```
