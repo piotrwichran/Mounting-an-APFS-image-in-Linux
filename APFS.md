@@ -16,6 +16,7 @@ cd build
 cmake ..
 ccmake . # Only if you want to change build options
 make
+make install
 ```
 
 ```
